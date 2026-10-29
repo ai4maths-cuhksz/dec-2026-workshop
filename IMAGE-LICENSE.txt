@@ -63,3 +63,8 @@ assets/images/conference-icon.png
 Created with the image-generation tool from the supplied photograph and
 triangular graph icon. These are PNG recreations, not lossless format
 conversions. Original generated files are retained outside the checkout.
+
+Campus map previews
+assets/images/campus-map-preview.webp and campus-map-small.webp are
+resized, compressed WebP previews of the campus-map.jpg source documented
+above. The full-resolution JPEG remains available through the map links.
