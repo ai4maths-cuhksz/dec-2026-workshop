@@ -42,3 +42,15 @@ is campus illustration, not confirmation of the December event entrance.
 
 The SVG favicon and mathematical curves were created for this website
 design and are not official university branding.
+
+Organiser portraits on the About page
+------------------------------------
+Miha Brešar
+Source: https://github.com/MihaBresar/mihabresar.github.io/blob/76af8528854ea6061509db508dfb5ec63bcd065d/assets/miha-bresar.jpg
+Dmitry Rybin
+Source: https://github.com/rybindmitry/rybindmitry.github.io/blob/1fbb56e6be04d5a2821fcee3db6d0604b684ff1f/images/dima2.jpg
+Cosme Louart
+Source: https://github.com/cosmital/cosmital.github.io/blob/fa1a57205a1244583a56141289d45d6331c6dfb8/images/image_git.jpg
+Images copied unchanged from public academic homepage repositories.
+CSS crops their display. No photo-specific licence or photographer credit
+was identified; no new licence is asserted.

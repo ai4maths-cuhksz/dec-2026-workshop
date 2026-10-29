@@ -359,3 +359,18 @@ address { font-style: normal; margin-bottom: 24px; }
   .section { padding-block: 24px; }
   a { color: inherit; }
 }
+
+/* Organising committee */
+.organisers-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+.organiser-card { background: var(--white); border: 1px solid var(--line); overflow: hidden; }
+.organiser-card > img, .organiser-initials { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 35%; }
+.organiser-initials { display: grid; place-items: center; background: var(--soft); color: var(--navy, #192c3e); font-family: Georgia, serif; font-size: 4rem; }
+.organiser-details { padding: 24px; }
+.organiser-details h3 { margin: 0 0 12px; font-size: 1.5rem; }
+.organiser-details p { margin: 0 0 12px; font-size: .95rem; }
+.organiser-position { font-weight: 700; }
+.organiser-focus { line-height: 1.6; }
+.organiser-details .text-link { font-size: .9rem; }
+.organiser-credits { margin-top: 20px; }
+@media (max-width: 1000px) { .organisers-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .organisers-grid { grid-template-columns: 1fr; } }
