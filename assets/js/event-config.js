@@ -10,7 +10,7 @@ window.CONFERENCE = {
   registrationUrl: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=eouJ5YecS0qyKi3z81XgHrqXUbSx0-BNiJA8Po9fctVUQTVaR0dBVkVWRFNMREcwWko1SjYyUUdVVC4u',
   registrationQr: '',
   registrationDeadline: 'To be announced',
-  feeLabel: 'To be announced',
+  feeLabel: 'no Fee',
   contactEmail: '',
   room: 'To be announced',
   gate: 'To be announced',

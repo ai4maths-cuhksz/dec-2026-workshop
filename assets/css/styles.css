@@ -53,7 +53,7 @@ figcaption { font-size: .73rem; line-height: 1.6; padding-top: .75rem; }
 .site-header { border-bottom: 1px solid var(--line); }
 .header-inner { display: flex; justify-content: space-between; align-items: center; gap: 24px; min-height: 102px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; flex-shrink: 0; }
-.brand-symbol { font-family: var(--serif); font-size: 3rem; line-height: 1; color: var(--accent); }
+.brand-symbol { display: block; width: 48px; height: 48px; flex: 0 0 auto; object-fit: contain; }
 .brand strong { display: block; font-family: var(--serif); font-size: 1.22rem; letter-spacing: -.035em; }
 .brand i { font-weight: 400; }
 .brand small { display: block; font-size: .55rem; letter-spacing: .13em; margin-top: 3px; }
@@ -265,7 +265,7 @@ address { font-style: normal; margin-bottom: 24px; }
   .announcement-separator { margin-inline: .3rem; }
   .header-inner { padding-block: 16px; min-height: 84px; gap: 12px; }
   .brand { gap: 8px; }
-  .brand-symbol { font-size: 2.6rem; }
+  .brand-symbol { width: 42px; height: 42px; }
   .brand strong { font-size: 1.12rem; }
   .brand small { font-size: .48rem; letter-spacing: .09em; }
   .menu-toggle:not([hidden]) { display: flex; font-size: .75rem; }
