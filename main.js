@@ -45,7 +45,7 @@
     text('[data-date-month]', format({ month: 'short' }).toUpperCase());
     text('[data-date-year]', format({ year: 'numeric' }));
   }
-  text('[data-date-status]', config.dateConfirmed === true ? 'Confirmed date' : 'Proposed date');
+  text('[data-date-status]', config.dateConfirmed === true ? 'Confirmed date' : 'Event date');
   const timePattern = /^(?:[01]\d|2[0-3]):[0-5]\d$/;
   if (timePattern.test(config.startTime) && timePattern.test(config.endTime)) {
     text('[data-event-hours]', `${config.startTime}–${config.endTime}`);
@@ -94,7 +94,7 @@
     const filter = (period) => {
       filters.forEach((el) => el.setAttribute('aria-pressed', String(el.dataset.filter === period)));
       blocks.forEach((el) => { el.hidden = period !== 'all' && el.dataset.period !== period; });
-      status.textContent = period === 'all' ? 'Showing the full proposed day.' : `Showing proposed ${period} sessions.`;
+      status.textContent = period === 'all' ? 'Showing the full day.' : `Showing ${period} sessions.`;
     };
     filters.forEach((el) => el.addEventListener('click', () => filter(el.dataset.filter)));
     const revealAnchor = () => {
