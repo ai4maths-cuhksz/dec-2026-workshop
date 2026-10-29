@@ -4,7 +4,7 @@ A first website draft for a one-day conference in December 2026. This is a porta
 
 ## Current status
 
-**Thursday, 3 December 2026, 09:30–17:30 (China Standard Time, UTC+8) is a proposal, not a confirmed event announcement.**
+**Friday, 4 December 2026, 09:30–17:30 (China Standard Time, UTC+8) is a proposal, not a confirmed event announcement.**
 
 The program contains proposed sessions and example time slots. Speakers, room, campus gate, registration arrangements, fees, and contact details still need confirmation. Information from the earlier June AI Math Day provides background; it does not confirm December participants or arrangements.
 

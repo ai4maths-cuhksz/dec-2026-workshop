@@ -2,7 +2,7 @@
    All dates/times below are proposals. Registration uses the organizer’s Microsoft form. */
 window.CONFERENCE = {
   title: 'AI for Mathematics at CUHK-Shenzhen',
-  date: '2026-12-03',
+  date: '2026-12-04',
   dateConfirmed: false,
   startTime: '09:30',
   endTime: '17:30',
