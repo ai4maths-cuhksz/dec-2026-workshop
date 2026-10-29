@@ -11,7 +11,7 @@ window.CONFERENCE = {
   registrationQr: '',
   registrationDeadline: 'To be announced',
   feeLabel: 'no Fee',
-  contactEmail: '',
+  contactEmail: 'cosmelouart@cuhk.edu.cn',
   room: 'To be announced',
   gate: 'To be announced',
   onlineParticipation: 'To be announced'
