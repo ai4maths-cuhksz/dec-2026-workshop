@@ -41,8 +41,8 @@ No endorsement by the photographer is implied. The historical photograph
 is campus illustration, not confirmation of the December event entrance.
 
 The mathematical curves were created for this website design and are not
-official university branding. The current SVG favicon and header icon
-were supplied by the site organiser (uploaded favicon.svg), copied unchanged.
+official university branding. The current PNG favicon and header icon
+are a recreation of the triangular graph image supplied by the site organiser.
 
 Organiser portraits on the About page
 ------------------------------------
@@ -55,3 +55,11 @@ Source: https://github.com/cosmital/cosmital.github.io/blob/fa1a57205a1244583a56
 Images copied unchanged from public academic homepage repositories.
 CSS crops their display. No photo-specific licence or photographer credit
 was identified; no new licence is asserted.
+
+PNG assets from organiser-supplied inline references
+-------------------------------------------------
+assets/images/organisers/jingbang-chen.png
+assets/images/conference-icon.png
+Created with the image-generation tool from the supplied photograph and
+triangular graph icon. These are PNG recreations, not lossless format
+conversions. Original generated files are retained outside the checkout.
