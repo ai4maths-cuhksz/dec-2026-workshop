@@ -1,7 +1,7 @@
 /* Organizer-editable facts. Keep fallback HTML and conference.ics in sync.
    All dates/times below are proposals. Registration uses the organizer’s Microsoft form. */
 window.CONFERENCE = {
-  title: 'AI for Mathematics at CUHK-Shenzhen',
+  title: 'Mathematical reasoning at AI frontier at CUHK-Shenzhen',
   date: '2026-12-04',
   dateConfirmed: false,
   startTime: '09:30',
