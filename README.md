@@ -1,4 +1,4 @@
-# AI for Mathematics at CUHK-Shenzhen
+# Mathematical reasoning at AI frontier at CUHK-Shenzhen
 
 A first website draft for a one-day conference in December 2026. This is a portable, static website: editable HTML, shared CSS, a small amount of JavaScript, and local image assets. There is no build step, package installation, API key, or database.
 
