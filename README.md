@@ -55,6 +55,26 @@ Visit <http://localhost:8000>. Stop the server with **Ctrl+C**. This optional pr
 | `assets/images/math-landscape.svg` | Original abstract mathematical illustration. |
 | `assets/images/math-lines.svg` | Original mathematical curves for the problem section. |
 
+## Workshop poster
+
+The homepage links to the compiled [one-page A4 poster (PDF)](poster/AI_Maths_Workshop_Poster.pdf).
+The [original source ZIP](poster/AI_Maths_Workshop_Source.zip) and its unchanged
+[extracted source folder](poster/AI_Maths_Workshop_Source/) are included in the repository.
+The poster is a separate document; changing the website configuration does not update it.
+
+To rebuild with pdfLaTeX (TeX Live or MiKTeX), run these commands from the repository root:
+
+```bash
+cd poster/AI_Maths_Workshop_Source
+mkdir -p /tmp/ai-maths-poster-build
+pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -file-line-error -output-directory=/tmp/ai-maths-poster-build AI_Maths_Workshop_Poster.tex
+pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -file-line-error -output-directory=/tmp/ai-maths-poster-build AI_Maths_Workshop_Poster.tex
+cp /tmp/ai-maths-poster-build/AI_Maths_Workshop_Poster.pdf ../AI_Maths_Workshop_Poster.pdf
+```
+
+Keep the supplied photograph and registration QR image beside the `.tex` file.
+Only the compiled PDF needs to be served to visitors; include the `poster` folder when publishing the site.
+
 ## First edits
 
 1. **Confirm the date and hours.** Update the shared configuration, the readable fallback HTML, and `conference.ics` together.
